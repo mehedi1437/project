@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+/* This is Header style */
+
+.header{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(208, 208, 166); */
+    background-image: url(Images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(186, 185, 184); */
+}
+.navbar ul{
+    display: flex;
+    margin-right: 135px;
+    
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 25px;
+    font-size: 25px;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.logo{
+    font-size: 70px;
+    font-family: 'Rubik Bubbles', cursive;
+    margin-left: 110px;
+    margin-top: 5px;
+    color: white;
+}
+.primary-text{
+    color:rgb(97, 175, 249) ;
+}
+.primary-btn{
+    font-size: 30px;
+    background-color: rgb(16, 66, 219);
+    color: rgb(237, 239, 244);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* This is header Description  */
+
+.header-description{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.description{
+    color: white;
+    position: absolute;
+    top: 23%;
+    right: 10%;
+    text-align: end;
+    
+}
+
+.description h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.description p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+}
+.contact-btn{
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: white;
+    padding: 15px 15px;
+    color: rgb(32, 112, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+
+/* Failure section style */
+
+
+.failure-section{
+    display: flex;
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+
+.failure-section img {
+   position: absolute;
+   top: 80px;
+   height: 550px;
+   width: 450px;
+    
+}
+.failure-description{
+    position: absolute;
+    right: 10%;
+    top: 280px;
+}
+.failure-description h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+.failure-description p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    font-size: 15px;
+    color: rgb(83, 82, 81);
+}
+.failure-description ul li{
+    /* list-style: none; */
+    margin-left: 20px;
+    color: rgb(83, 82, 81);
+}
+
+/* This is my plan style */
+
+.my-plan{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.plan-heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-bottom: 40px;
+}
+.plan-list{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-list h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.plan-list p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 81);
+}
+
+/* This is watch section style */
+
+.watch-section{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(120deg, rgb(5, 82, 164),rgba(255, 255, 255, 0.413)),url(Images/Watch/watch.png);
+    border-radius: 7px;
+    
+    
+    
+}
+
+.watch-section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.secondery-btn{
+    color:rgb(11, 97, 209);
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: 40px;
+}
+
+/* This is footer style */
+
+.footer-section{
+    height: 350px;
+    max-width: 1140px;
+    margin: 70px auto 0;
+    background-color: rgb(30, 29, 29);
+    display: flex;
+   
+    
+}
+
+.footer-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    position: relative;
+    
+   
+}
+.left-description{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    height: 200px;
+    width: 100%;
+}
+.left-description h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+}
+.left-description p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(254, 254, 254);
+    font-size: 13px;
+}
+
+.footer-icon{
+    position: absolute;
+    left: 8%;
+    bottom: 10%;
+
+}
+.footer-icon img{
+    height: 30px;
+    width: 30px;
+    margin-right: 9px;
+}
+
+.footer-right{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 50%;  
+}
+
+.right-description{
+   position: absolute;
+   top: 30%;
+   left: 30%;
+}
+.right-description h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.right-description input{
+    height: 35px;
+    width: 210px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color:rgb(30, 29, 29) ;
+    color: white;
+}
+
+.last-btn{
+    color:white;
+    background-color: rgb(11, 97, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
