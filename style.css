@@ -14,7 +14,7 @@
     height: 100vh;
     width: 100vw;
     /* background-color: rgb(208, 208, 166); */
-    background-image: url(Images/banner/banner.png);
+    background-image: url('images/banner/banner.png');
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -52,8 +52,8 @@
 }
 .primary-btn{
     font-size: 30px;
-    background-color: rgb(16, 66, 219);
-    color: rgb(237, 239, 244);
+    background-color: white;
+    color: rgb(32, 112, 241);
     border: 0;
     border-radius: 5px;
     padding: 10px 20px;
@@ -177,7 +177,7 @@ main{
 .watch-section{
     height: 200px;
     width: 100%;
-    background: linear-gradient(120deg, rgb(5, 82, 164),rgba(255, 255, 255, 0.413)),url(Images/Watch/watch.png);
+    background: linear-gradient(120deg, rgb(5, 82, 164),rgba(255, 255, 255, 0.413)),url('images/watch/watch.png');
     border-radius: 7px;
     
     
